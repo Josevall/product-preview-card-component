@@ -48,7 +48,7 @@ body {
 }
 .texts {
     padding: 2.5rem;
-    margin-top: -1rem;
+    margin-top: -1rem;  
 }
 .texts p:nth-child(1),
 .texts p:nth-child(3),
@@ -78,7 +78,7 @@ h1 {
     font-weight: 700;
     font-size: 3rem;
     color: var(--Dark-cyan);
-    margin-right: 3rem;
+    margin: 0 3rem 0 0;
 }
 .price > p:nth-child(2) {
     text-decoration: line-through; 
@@ -95,7 +95,6 @@ button {
     color: var(--White);
     border: none;
     border-radius: 1rem;
-    margin-top: -1rem;
     cursor: pointer;
 }
 button > img {
@@ -124,7 +123,7 @@ button > img {
     }
     .texts {
         padding: 0;
-        margin: 3.5rem;
+        margin: 1rem 3rem;
     }
     .texts,
     h1, 
@@ -132,13 +131,15 @@ button > img {
     button {
         margin-top: 0;
     }
-    
+    h1 {
+        font-size: 4rem;
+    }
     .price > p:nth-child(1) {
         font-weight: bolder;
         font-size: 4rem;
     }
     button {
-       
+       margin: 15px 0;
     }
 }
 
