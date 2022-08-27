@@ -57,11 +57,13 @@ body {
     font-weight: 500;
     font-size: 1.5rem;
     color: var(--Dark-grayish-blue);
+    line-height: 200%;
 }
 h1 {
     font-weight: 700;
     font-size: 3rem;
     margin-top: -1rem;
+    line-height: .9;
 }
 
 .price {
@@ -121,8 +123,8 @@ button > img {
         border-bottom-left-radius: 8px;
     }
     .texts {
-        padding: 3.5rem;
-        margin-left: 1rem;
+        padding: 0;
+        margin: 3.5rem;
     }
     .texts,
     h1, 
@@ -130,9 +132,13 @@ button > img {
     button {
         margin-top: 0;
     }
-    button {
-        margin-top: 3rem;
+    
+    .price > p:nth-child(1) {
+        font-weight: bolder;
+        font-size: 4rem;
     }
-
+    button {
+       
+    }
 }
 
