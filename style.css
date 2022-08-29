@@ -134,12 +134,12 @@ button > img {
     h1 {
         font-size: 4rem;
     }
+    .texts p:nth-child(3) {
+        margin: 0;
+    }
     .price > p:nth-child(1) {
         font-weight: bolder;
         font-size: 4rem;
-    }
-    button {
-       margin: 15px 0;
     }
 }
 
